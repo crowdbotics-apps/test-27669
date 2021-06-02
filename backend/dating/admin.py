@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Setting, Profile, Inbox, Dislike, Match, UserPhoto, Like
+from .models import Dislike, Inbox, Like, Match, Profile, Setting, UserPhoto
 
 admin.site.register(Match)
 admin.site.register(Inbox)
